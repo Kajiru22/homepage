@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <title>Reflux HTML CSS Template</title>
+<!--
+Reflux Template
+https://templatemo.com/tm-531-reflux
+-->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  </head>
+
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="assets/images/bw-foto.jpg" alt="" /></a>
+            </div>
+            <div class="author-content">
+              <h4>Danijel Todorovic</h4>
+              <span>Software Developer</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">Über mich</a></li>
+                <li><a href="#section2">Was kann ich?</a></li>
+                <li><a href="#section3">Meine Arbeit</a></li>
+                <li><a href="#section4">Kontakt</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="soial-icons">
+                <li>
+                  <a href="https://twitter.com/DanijelTodorov3"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/danijel-todorovic-508839225/"><i class="fa fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="copyright-text">
+              <p>Copyright T.D 2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Über mich</h2>
+            <div class="line-dec"></div>
+            <span
+              ></span
+            >
+          </div>
+          <div class="left-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-image">
+                  <img src="assets/images/left-image.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-text">
+                  <h4>Die IT, mein Begleiter</h4>
+                  <p>
+                    <p>Mein Name ist Danijel Todorovic, ich bin 37 Jahre alt, glücklich verheiratet und stolzer Vater von fünf wundervollen Kindern. Schon in meiner Jugend entdeckte ich meine Leidenschaft für Informationstechnologie. Bereits mit 15 Jahren begann ich, eigene Computer aus aussortierten Teilen zusammenzubauen. Es war stets mein innigster Wunsch, meine berufliche Laufbahn in diesem Bereich zu starten. Doch dieser Traum wurde mir lange Zeit verwehrt.</p>
+
+                    <p>Aufgrund der Trennung meiner Eltern von meiner Geburt an hatte ich keinen festen Wohnsitz und wechselte häufig zwischen verschiedenen Familienmitgliedern. Im Alter von 17 Jahren entschied ich mich dazu, auf eigenen Beinen zu stehen und mein eigenes Leben zu führen. Ohne formale Ausbildung war ich gezwungen, Hilfsjobs anzunehmen. Einige Jahre später ergab sich die Möglichkeit, eine Ausbildung zum Restaurantfachmann zu machen. Ich absolvierte die Ausbildung und arbeitete dann mehrere Jahre als Restaurantfachmann.</p>
+            
+                    <p>Während des ersten großen Lockdowns erkannte ich, dass dies die perfekte Gelegenheit war, meinen beruflichen Werdegang in Richtung IT umzuschulen. Anfangs versuchte ich, mich autodidaktisch weiterzubilden, bis ich auf das Institut "everyone codes" stieß. Dort absolvierte ich eine einjährige Vollzeitausbildung zum Java Backend Developer. Seitdem bin ich auf der Suche nach einer neuen beruflichen Herausforderung in der IT-Branche.</p>
+            
+                    <p>Ich freue mich darauf, meine Fähigkeiten und Erfahrungen in einem innovativen Unternehmen einzubringen und gemeinsam erfolgreich zu sein.</p>
+                    <div class="white-button">
+                      <button id="translateButton">Translate to English</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script>
+        // Definiere die deutschen und englischen Texte für die Absätze
+        var germanTexts = [
+          "Mein Name ist Danijel Todorovic, ich bin 37 Jahre alt, glücklich verheiratet und stolzer Vater von fünf wundervollen Kindern. Schon in meiner Jugend entdeckte ich meine Leidenschaft für Informationstechnologie. Bereits mit 15 Jahren begann ich, eigene Computer aus aussortierten Teilen zusammenzubauen. Es war stets mein innigster Wunsch, meine berufliche Laufbahn in diesem Bereich zu starten. Doch dieser Traum wurde mir lange Zeit verwehrt.",
+          "Aufgrund der Trennung meiner Eltern von meiner Geburt an hatte ich keinen festen Wohnsitz und wechselte häufig zwischen verschiedenen Familienmitgliedern. Im Alter von 17 Jahren entschied ich mich dazu, auf eigenen Beinen zu stehen und mein eigenes Leben zu führen. Ohne formale Ausbildung war ich gezwungen, Hilfsjobs anzunehmen. Einige Jahre später ergab sich die Möglichkeit, eine Ausbildung zum Restaurantfachmann zu machen. Ich absolvierte die Ausbildung und arbeitete dann mehrere Jahre als Restaurantfachmann.",
+          "Während des ersten großen Lockdowns erkannte ich, dass dies die perfekte Gelegenheit war, meinen beruflichen Werdegang in Richtung IT umzuschulen. Anfangs versuchte ich, mich autodidaktisch weiterzubilden, bis ich auf das Institut 'everyone codes' stieß. Dort absolvierte ich eine einjährige Vollzeitausbildung zum Java Backend Developer. Seitdem bin ich auf der Suche nach einer neuen beruflichen Herausforderung in der IT-Branche.",
+          "Ich freue mich darauf, meine Fähigkeiten und Erfahrungen in einem innovativen Unternehmen einzubringen und gemeinsam erfolgreich zu sein."
+        ];
+      
+        var englishTexts = [
+          "My name is Danijel Todorovic, I am 37 years old, happily married, and proud father of five wonderful children. In my youth, I discovered my passion for information technology. At the age of 15, I began assembling my own computers from discarded parts. It has always been my deepest wish to start my career in this field. However, this dream was denied to me for a long time.",
+          "Due to my parents' separation from my birth, I had no fixed place of residence and frequently moved between different family members. At the age of 17, I decided to stand on my own feet and lead my own life. Without formal education, I was forced to take on odd jobs. Several years later, I had the opportunity to train as a restaurant specialist. I completed the training and worked as a restaurant specialist for several years.",
+          "During the first major lockdown, I realized that this was the perfect opportunity to retrain my career towards IT. Initially, I tried to educate myself autodidactically until I came across the 'everyone codes' institute. There I completed a one-year full-time training as a Java Backend Developer. Since then, I have been looking for a new professional challenge in the IT industry.",
+          "I look forward to contributing my skills and experiences to an innovative company and being successful together."
+        ];
+      
+        var isGerman = true; // Flag, um den aktuellen Zustand zu verfolgen
+      
+        document.getElementById('translateButton').addEventListener('click', function() {
+          // Überprüfe den aktuellen Zustand und ändere entsprechend den Text
+          if (isGerman) {
+            document.querySelectorAll('.right-text p').forEach(function(paragraph, index) {
+              paragraph.textContent = englishTexts[index];
+            });
+            document.getElementById('translateButton').textContent = "Übersetzen auf Deutsch";
+            isGerman = false;
+          } else {
+            document.querySelectorAll('.right-text p').forEach(function(paragraph, index) {
+              paragraph.textContent = germanTexts[index];
+            });
+            document.getElementById('translateButton').textContent = "Translate to English";
+            isGerman = true;
+          }
+        });
+      </script>
+
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Was kann ich?</h2>
+            <div class="line-dec"></div>
+            <span>
+              Danke dem Institut everyone codes habe ich viel Backend in Form von Java Basic und Java Advanced mit Frameworks wie Spring und Springboot gelernt. Desweiteren habe ich Autodidaktiv etwas Frontend in Form von HTML, CSS und JavaScript gelernt. Jetzt bin ich dabei Angular zu lernen.
+              </span>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="first-service-icon service-icon"></div>
+                <h4>Java &amp; Springboot</h4>
+                  <p>⭔ Grundlagen von Java</p>
+                  <p>⭔ Fortgeschrittene Java-Konzepte</p>
+                  <p>⭔ Verwendung von Frameworks wie Spring und Springboot</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>Html, CSS & JavaScript</h4>
+                <p>⭔ Grundlagen von HTML</p>
+                <p>⭔ Grundlagen von CSS</p>
+                <p>⭔ Grundlagen von JavaScript</p>
+                <p>⭔ Anwendung und Integration von HTML, CSS & JavaScript in Webentwicklungsprojekten</p>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Meine Arbeit</h2>
+            <div class="line-dec"></div>
+            <span
+              >Auf dieser Seite präsentiere ich meine Arbeit sowie die Projekte und Programme, an denen ich während meiner Ausbildung gearbeitet habe. Hier finden Sie einen Einblick in meine Fähigkeiten und Leidenschaften. Tauchen Sie ein und entdecken Sie, was ich während meiner Ausbildungszeit geschaffen habe.</span
+            >
+          </div>
+          <div class="row">
+            <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label
+                  ><input
+                    type="radio"
+                    data-type="*"
+                    checked=""
+                    name="isotope-filter"
+                  />
+                  <span>all</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="mmw"
+                    name="isotope-filter"
+                  />
+                  <span>Map my world</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="AMS"
+                    name="isotope-filter"
+                  />
+                  <span>Attendance Management System</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="ec"
+                    name="isotope-filter"
+                  />
+                  <span>everyone codes</span></label
+                >
+              </form>
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="mmw">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-01.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-01.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Map my world</h4>
+                      <span>Documentation from a collaborative projekt</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="mmw">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-02.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-02.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Map my world</h4>
+                      <span>Documentation from a collaborative projekt</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="mmw">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-03.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-03.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Map my world</h4>
+                      <span>Documentation from a collaborative projekt</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="AMS">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-04.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-04.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>AMS - Attendance Management System</h4>
+                      <span>Installation guide for the web-application</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="AMS">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-05.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-05.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>AMS - Attendance Management System</h4>
+                      <span>Class description</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="ec">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-06.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-06.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>everyone codes</h4>
+                      <span>Summary of my training</span>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-me" data-section="section4">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Kontakt</h2>
+            <div class="line-dec"></div>
+            <span
+              ></span
+            >
+          </div>
+          <div class="row">
+            <div class="right-content">
+              <div class="container">
+                <form id="contact" action="" method="post">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="name"
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your name..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="email"
+                          type="text"
+                          class="form-control"
+                          id="email"
+                          placeholder="Your email..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input
+                          name="subject"
+                          type="text"
+                          class="form-control"
+                          id="subject"
+                          placeholder="Subject..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <textarea
+                          name="message"
+                          rows="6"
+                          class="form-control"
+                          id="message"
+                          placeholder="Your message..."
+                          required=""
+                        ></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="button">
+                          Senden
+                        </button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
+
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
+    </script>
+  </body>
+</html>
